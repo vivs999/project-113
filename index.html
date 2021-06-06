@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"></link>
+        <meta charset="UTF-8">
+        <title>Intro p5.js</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      
+        
+    </head>
+    <body>
+        <center>
+        <h1 class="btn">
+            PHOTO FRAME
+        </h1>
+        <br>
+        <br>
+        <input id="border_color" placeholder="border color">
+        <button class="btn" onclick="update()">SET BORDER</button>
+        <br><br>
+        <input id="circle_color" placeholder="Circle color">
+        <button class="btn" onclick="update()">SET CIRCLE</button>
+        <br><br>
+        <button class="btn" onclick="snap()">TAKE SNAPSHOT</button>
+        <div style="height: 800px;"></div>
+    <script src="main.js"></script>
+    </body>
+</html>
